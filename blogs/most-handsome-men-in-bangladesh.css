@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: #242323;
+    color: #fff;
+    text-align: justify;
+}
+
+.container {
+    margin: 1% 10%;
+}
+
+.color-tomato {
+    color: tomato;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-content {
+    margin: 0% 1.5% 3% 0%;
+    display: grid;
+    grid-template-columns: 35% 63%;
+}
+
+.text-content img {
+    margin-left: 10%;
+}
+
+.text-content-artical {
+    margin-top: 5%;
+}
+
+.text-size {
+    margin: 0% 3.2% 3% 3.2%;
+}
+
+.main-hading {
+    font-size: 45px;
+    color: #5f6470;
+    margin: 5% 3% 0% 3%;
+}
+
+.link :hover {
+    text-decoration: underline;
+    color: rgb(86, 86, 233);
+}
+
+.question-section {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+
+.question-section img {
+    border-radius: 20px;
+    width: 90%;
+    padding-left: 5%;
+    /* height: 80%; */
+}
+
+.question-answer {
+    margin-right: 5%;
+}
+
+.question-answer p {
+    margin-top: 1%;
+    font-size: 19px;
+}
+
+.question-answer h1 {
+    font-size: 27px;
+    margin-top: 2%;
+}
+
+.artical {
+    margin: 2% 3%;
+}
+
+.artical p {
+    margin-bottom: 1.2%;
+    margin-top: 0.3%;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        max-width: 100%;
+        margin: 1% 5%;
+    }
+
+    .text-content {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: auto auto;
+    }
+
+    .text-content img {
+        margin-left: 6%;
+    }
+
+    .most-handsome-men-picture {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .question-section {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .question-section img {
+        max-width: 100%;
+        margin: 30px 0px;
+    }
+
+    .main-hading {
+        font-size: 26px;
+    }
+
+    .question-answer {
+        margin: 10px 15px;
+    }
+
+    .question-answer h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
